@@ -53,6 +53,5 @@ module.exports = env =>
 				template: path.join(paths.SRC, "index.html")
 			}),
 			new webpack.HotModuleReplacementPlugin()
-			// new webpack.NamedModulesPlugin()
 		]
 	})
