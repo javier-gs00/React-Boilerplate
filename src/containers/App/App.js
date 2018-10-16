@@ -1,6 +1,6 @@
 import React from "react"
-import { Header } from "../../components/Header/Header"
-import { Button } from "../../components/Button/Button"
+import { Header } from "Components/Header/Header"
+import { Button } from "Components/Button/Button"
 import { hot } from "react-hot-loader"
 import "./app.less"
 
