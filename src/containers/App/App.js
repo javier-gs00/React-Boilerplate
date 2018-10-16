@@ -10,10 +10,9 @@ class App extends React.Component {
 		this.state = {
 			counter: 0
 		}
-		this.incrementCounter = this.incrementCounter.bind(this)
 	}
 
-	incrementCounter() {
+	incrementCounter = () => {
 		this.setState({ counter: this.state.counter + 1 })
 	}
 
