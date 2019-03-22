@@ -1,6 +1,6 @@
 {
   "name": "react-less-template-v2",
-  "version": "0.1.2",
+  "version": "0.1.1",
   "description": "A Webpack 4 ReactJS template",
   "main": "index.js",
   "scripts": {
