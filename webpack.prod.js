@@ -32,7 +32,7 @@ module.exports = env =>
 			]
 		},
 		plugins: [
-			new CleanWebpackPlugin(["dist"]),
+			new CleanWebpackPlugin(),
 			new HtmlWebpackPlugin({
 				inject: true,
 				template: path.join(paths.SRC, "index.html"),
